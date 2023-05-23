@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+.add{
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 8px;
+  color:white;
+  font-size: large;
+  margin: 5px;
+}
+
+.container{
+  background-color: lightgrey;
+  border-radius: 10px;
+  width: 40%;
+  border: 1px solid grey;
+  margin: auto;
+  padding: 10px
+}
+
+.operations{
+  display: flex;
+  font-size: large;
+  text-align: bottom;
+  font-weight: 200;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.tasks{
+  display: flex;
+}
